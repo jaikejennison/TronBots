@@ -9,7 +9,7 @@ penup()
 hideturtle()
 robots = {}
 
-file = open('cards.txt', 'r')
+file = open('images/cards.txt', 'r')
 
 for line in file.read().splitlines():
   name, battery, intelligence, usefulness, speed, image, colour = line.split(', ')
